@@ -1,55 +1,97 @@
-## Entity: Constant items
+# Entity: Constant
 
-Constant items are named constants that hold a value of a specific type. They are immutable and can be used in various contexts throughout the code.
+Constants are immutable values that must be computed at compile time and defined at declaration. They are similar to immutable static variables but with some differences in how they're used and optimized.
 
-### Supported Patterns
+## Supported Patterns
 
-```yaml
-Name: Constant items
+### name: ConstantDefinition
+### Syntax: ConstantDefinition
+```rust
+const CONSTANT_NAME: Type = value;
 ```
 
-#### Syntax: Constant Definitions
+### Examples
 
-```text
-ConstantItem :
-   const ( IDENTIFIER | _ ) : Type ( = Expression )? ;
-•  const: 关键字，表示常量项。
-•  IDENTIFIER | _: 常量的名称或匿名常量（_ 用于未命名常量）。
-•  Type: 常量的类型。
-•  = Expression: 可选的表达式，用于初始化常量。
-•  ;: 常量定义的结束符。
-```
-
-##### Examples
-###### Named Constant
-
-```rs
-const PI: f64 = 3.141592653589793;
+#### Basic Constant Definition
+```rust
+const MAX_POINTS: u32 = 100_000;
+const DEFAULT_NAME: &str = "Unknown";
 ```
 
 ```yaml
-Name: Named Constant Entity:
-Type: Constant
-Items:
--Name: PI
-Qualified: PI
-Location: 1:7
+name: BasicConstantDefinition
+entity:
+  type: Constant
+  extra: false
+  items:
+  - type: Constant
+    qualified: test_basic_constant.MAX_POINTS
+    name: MAX_POINTS
+    loc: '1:7'
+  - type: Constant
+    qualified: test_basic_constant.DEFAULT_NAME
+    name: DEFAULT_NAME
+    loc: '2:7'
 ```
 
-
-###### Anonymous Constant 
-
-```rs
-const _: u32 = 42;
+#### Constant with Expression
+```rust
+const HOUR_IN_SECONDS: u32 = 60 * 60;
+const PI_APPROX: f64 = 22.0 / 7.0;
+const IS_ENABLED: bool = true;
 ```
 
-```text
-Name: Anonymous Constant Entity:
-Type: Constant
-Items:
--Name: _
-Qualified: _
-Location: 1:7
+```yaml
+name: ConstantWithExpression
+entity:
+  type: Constant
+  extra: false
+  items:
+  - type: Constant
+    qualified: test_constant_expression.HOUR_IN_SECONDS
+    name: HOUR_IN_SECONDS
+    loc: '1:7'
+  - type: Constant
+    qualified: test_constant_expression.PI_APPROX
+    name: PI_APPROX
+    loc: '2:7'
+  - type: Constant
+    qualified: test_constant_expression.IS_ENABLED
+    name: IS_ENABLED
+    loc: '3:7'
 ```
 
+#### Module Constant
+```rust
+//// test_module_constant.rs
+mod config {
+    pub const DATABASE_URL: &str = "localhost:5432";
+    const PRIVATE_KEY: &str = "secret";
+}
 
+fn main() {
+    println!("Database URL: {}", config::DATABASE_URL);
+}
+```
+
+```yaml
+name: ModuleConstant
+entity:
+  type: Constant
+  extra: false
+  items:
+  - type: Constant
+    qualified: test_module_constant.config.DATABASE_URL
+    name: DATABASE_URL
+    loc: '2:11'
+  - type: Constant
+    qualified: test_module_constant.config.PRIVATE_KEY
+    name: PRIVATE_KEY
+    loc: '3:11'
+```
+
+## Properties
+
+| Name | Description | Type | Default |
+|------|-------------|------|---------|
+| isPublic | Indicates whether the constant is publicly accessible. | boolean | false |

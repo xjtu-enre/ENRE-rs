@@ -1,0 +1,452 @@
+{
+  "entities": [
+    {
+      "id": 0,
+      "name": "crate",
+      "qualifiedName": "crate",
+      "parent": null,
+      "category": "Crate",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Kilometers",
+      "qualifiedName": "crate::Kilometers",
+      "parent": 0,
+      "category": "TypeAlias",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 1,
+            "column": 6
+          },
+          "end": {
+            "line": 1,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Thunk",
+      "qualifiedName": "crate::Thunk",
+      "parent": 0,
+      "category": "TypeAlias",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 2,
+            "column": 6
+          },
+          "end": {
+            "line": 2,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "main",
+      "qualifiedName": "crate::main",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 4,
+            "column": 4
+          },
+          "end": {
+            "line": 4,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "x",
+      "qualifiedName": "crate::main::block_0::x",
+      "parent": 3,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 6,
+            "column": 9
+          },
+          "end": {
+            "line": 6,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "f",
+      "qualifiedName": "crate::main::block_0::f",
+      "parent": 3,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 7,
+            "column": 9
+          },
+          "end": {
+            "line": 7,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "closure_7",
+      "qualifiedName": "crate::main::block_0::closure_7",
+      "parent": 3,
+      "category": "Closure",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 7,
+            "column": 29
+          },
+          "end": {
+            "line": 7,
+            "column": 46
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "networking",
+      "qualifiedName": "crate::networking",
+      "parent": 0,
+      "category": "Module",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 9,
+            "column": 5
+          },
+          "end": {
+            "line": 9,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Port",
+      "qualifiedName": "crate::networking::Port",
+      "parent": 8,
+      "category": "TypeAlias",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 11,
+            "column": 10
+          },
+          "end": {
+            "line": 11,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Host",
+      "qualifiedName": "crate::networking::Host",
+      "parent": 8,
+      "category": "TypeAlias",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 12,
+            "column": 10
+          },
+          "end": {
+            "line": 12,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "Server",
+      "qualifiedName": "crate::networking::Server",
+      "parent": 8,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 14,
+            "column": 16
+          },
+          "end": {
+            "line": 14,
+            "column": 22
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "host",
+      "qualifiedName": "crate::networking::Server::host",
+      "parent": 11,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 16,
+            "column": 9
+          },
+          "end": {
+            "line": 16,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "port",
+      "qualifiedName": "crate::networking::Server::port",
+      "parent": 11,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 17,
+            "column": 9
+          },
+          "end": {
+            "line": 17,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "PublicAlias",
+      "qualifiedName": "crate::PublicAlias",
+      "parent": 0,
+      "category": "TypeAlias",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 20,
+            "column": 10
+          },
+          "end": {
+            "line": 20,
+            "column": 21
+          }
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "PrivateAlias",
+      "qualifiedName": "crate::PrivateAlias",
+      "parent": 0,
+      "category": "TypeAlias",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 21,
+            "column": 6
+          },
+          "end": {
+            "line": 21,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "MyStruct",
+      "qualifiedName": "crate::MyStruct",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 23,
+            "column": 12
+          },
+          "end": {
+            "line": 23,
+            "column": 20
+          }
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "data",
+      "qualifiedName": "crate::MyStruct::data",
+      "parent": 16,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 25,
+            "column": 9
+          },
+          "end": {
+            "line": 25,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "private_data",
+      "qualifiedName": "crate::MyStruct::private_data",
+      "parent": 16,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 26,
+            "column": 5
+          },
+          "end": {
+            "line": 26,
+            "column": 17
+          }
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from": 0,
+      "to": 1,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 2,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 3,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 8,
+      "category": "Define"
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "category": "Define"
+    },
+    {
+      "from": 8,
+      "to": 10,
+      "category": "Define"
+    },
+    {
+      "from": 8,
+      "to": 11,
+      "category": "Define"
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "category": "Define"
+    },
+    {
+      "from": 11,
+      "to": 13,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 14,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 15,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 16,
+      "category": "Define"
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "category": "Define"
+    },
+    {
+      "from": 16,
+      "to": 18,
+      "category": "Define"
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "category": "Define"
+    },
+    {
+      "from": 3,
+      "to": 6,
+      "category": "Define"
+    },
+    {
+      "from": 3,
+      "to": 7,
+      "category": "Define"
+    }
+  ],
+  "meta": null
+}

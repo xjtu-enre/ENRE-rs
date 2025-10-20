@@ -1,0 +1,477 @@
+{
+  "entities": [
+    {
+      "id": 0,
+      "name": "crate",
+      "qualifiedName": "crate",
+      "parent": null,
+      "category": "Crate",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "utils",
+      "qualifiedName": "crate::utils",
+      "parent": 0,
+      "category": "Module",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 2,
+            "column": 5
+          },
+          "end": {
+            "line": 2,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "greet",
+      "qualifiedName": "crate::utils::greet",
+      "parent": 1,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 3,
+            "column": 12
+          },
+          "end": {
+            "line": 3,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "utils2",
+      "qualifiedName": "crate::utils2",
+      "parent": 0,
+      "category": "Module",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 7,
+            "column": 5
+          },
+          "end": {
+            "line": 7,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "front_of_house",
+      "qualifiedName": "crate::front_of_house",
+      "parent": 0,
+      "category": "Module",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 9,
+            "column": 5
+          },
+          "end": {
+            "line": 9,
+            "column": 19
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "hosting",
+      "qualifiedName": "crate::front_of_house::hosting",
+      "parent": 5,
+      "category": "Module",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 10,
+            "column": 9
+          },
+          "end": {
+            "line": 10,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "add_to_waitlist",
+      "qualifiedName": "crate::front_of_house::hosting::add_to_waitlist",
+      "parent": 6,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 11,
+            "column": 12
+          },
+          "end": {
+            "line": 11,
+            "column": 27
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "seat_at_table",
+      "qualifiedName": "crate::front_of_house::hosting::seat_at_table",
+      "parent": 6,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 13,
+            "column": 12
+          },
+          "end": {
+            "line": 13,
+            "column": 25
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "serving",
+      "qualifiedName": "crate::front_of_house::serving",
+      "parent": 5,
+      "category": "Module",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 16,
+            "column": 9
+          },
+          "end": {
+            "line": 16,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "take_order",
+      "qualifiedName": "crate::front_of_house::serving::take_order",
+      "parent": 11,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 17,
+            "column": 12
+          },
+          "end": {
+            "line": 17,
+            "column": 22
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "serve_order",
+      "qualifiedName": "crate::front_of_house::serving::serve_order",
+      "parent": 11,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 19,
+            "column": 12
+          },
+          "end": {
+            "line": 19,
+            "column": 23
+          }
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "take_payment",
+      "qualifiedName": "crate::front_of_house::serving::take_payment",
+      "parent": 11,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 21,
+            "column": 12
+          },
+          "end": {
+            "line": 21,
+            "column": 24
+          }
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "outer_fn",
+      "qualifiedName": "crate::outer_fn",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 24,
+            "column": 4
+          },
+          "end": {
+            "line": 24,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "inside_fn",
+      "qualifiedName": "crate::outer_fn::block_6::inside_fn",
+      "parent": 18,
+      "category": "Module",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 25,
+            "column": 9
+          },
+          "end": {
+            "line": 25,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "MSG",
+      "qualifiedName": "crate::outer_fn::block_6::inside_fn::MSG",
+      "parent": 20,
+      "category": "Constant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 26,
+            "column": 19
+          },
+          "end": {
+            "line": 26,
+            "column": 22
+          }
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "S",
+      "qualifiedName": "crate::S",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 30,
+            "column": 8
+          },
+          "end": {
+            "line": 30,
+            "column": 9
+          }
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "helper",
+      "qualifiedName": "crate::helper",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 33,
+            "column": 4
+          },
+          "end": {
+            "line": 33,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 25,
+      "name": "inside_fn",
+      "qualifiedName": "crate::helper::block_7::inside_fn",
+      "parent": 23,
+      "category": "Module",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 34,
+            "column": 9
+          },
+          "end": {
+            "line": 34,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 26,
+      "name": "work",
+      "qualifiedName": "crate::helper::block_7::inside_fn::work",
+      "parent": 25,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 35,
+            "column": 16
+          },
+          "end": {
+            "line": 35,
+            "column": 20
+          }
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from": 0,
+      "to": 1,
+      "category": "Define"
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 4,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 5,
+      "category": "Define"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "category": "Define"
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "category": "Define"
+    },
+    {
+      "from": 6,
+      "to": 9,
+      "category": "Define"
+    },
+    {
+      "from": 5,
+      "to": 11,
+      "category": "Define"
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "category": "Define"
+    },
+    {
+      "from": 11,
+      "to": 14,
+      "category": "Define"
+    },
+    {
+      "from": 11,
+      "to": 16,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 18,
+      "category": "Define"
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "category": "Define"
+    },
+    {
+      "from": 18,
+      "to": 21,
+      "category": "Call"
+    },
+    {
+      "from": 0,
+      "to": 22,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 23,
+      "category": "Define"
+    },
+    {
+      "from": 25,
+      "to": 26,
+      "category": "Define"
+    },
+    {
+      "from": 23,
+      "to": 26,
+      "category": "Call"
+    }
+  ],
+  "meta": null
+}

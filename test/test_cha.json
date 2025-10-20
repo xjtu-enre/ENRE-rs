@@ -1,0 +1,1252 @@
+{
+  "entities": [
+    {
+      "id": 0,
+      "name": "crate",
+      "qualifiedName": "crate",
+      "parent": null,
+      "category": "Crate",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Drawable",
+      "qualifiedName": "crate::Drawable",
+      "parent": 0,
+      "category": "Trait",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 4,
+            "column": 7
+          },
+          "end": {
+            "line": 4,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "draw",
+      "qualifiedName": "crate::Drawable::draw",
+      "parent": 1,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 5,
+            "column": 8
+          },
+          "end": {
+            "line": 5,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "area",
+      "qualifiedName": "crate::Drawable::area",
+      "parent": 1,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 6,
+            "column": 8
+          },
+          "end": {
+            "line": 6,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Printable",
+      "qualifiedName": "crate::Printable",
+      "parent": 0,
+      "category": "Trait",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "print",
+      "qualifiedName": "crate::Printable::print",
+      "parent": 4,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 11,
+            "column": 8
+          },
+          "end": {
+            "line": 11,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "format",
+      "qualifiedName": "crate::Printable::format",
+      "parent": 4,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 15,
+            "column": 8
+          },
+          "end": {
+            "line": 15,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "ColoredDrawable",
+      "qualifiedName": "crate::ColoredDrawable",
+      "parent": 0,
+      "category": "Trait",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 21,
+            "column": 7
+          },
+          "end": {
+            "line": 21,
+            "column": 22
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "color",
+      "qualifiedName": "crate::ColoredDrawable::color",
+      "parent": 7,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 22,
+            "column": 8
+          },
+          "end": {
+            "line": 22,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Circle",
+      "qualifiedName": "crate::Circle",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 26,
+            "column": 8
+          },
+          "end": {
+            "line": 26,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "radius",
+      "qualifiedName": "crate::Circle::radius",
+      "parent": 9,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 27,
+            "column": 5
+          },
+          "end": {
+            "line": 27,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "Rectangle",
+      "qualifiedName": "crate::Rectangle",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 30,
+            "column": 8
+          },
+          "end": {
+            "line": 30,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "width",
+      "qualifiedName": "crate::Rectangle::width",
+      "parent": 11,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 31,
+            "column": 5
+          },
+          "end": {
+            "line": 31,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "height",
+      "qualifiedName": "crate::Rectangle::height",
+      "parent": 11,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 32,
+            "column": 5
+          },
+          "end": {
+            "line": 32,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Triangle",
+      "qualifiedName": "crate::Triangle",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 35,
+            "column": 8
+          },
+          "end": {
+            "line": 35,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "base",
+      "qualifiedName": "crate::Triangle::base",
+      "parent": 14,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 36,
+            "column": 5
+          },
+          "end": {
+            "line": 36,
+            "column": 9
+          }
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "height",
+      "qualifiedName": "crate::Triangle::height",
+      "parent": 14,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 37,
+            "column": 5
+          },
+          "end": {
+            "line": 37,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "draw",
+      "qualifiedName": "crate::Circle::draw",
+      "parent": 9,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 42,
+            "column": 8
+          },
+          "end": {
+            "line": 42,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "area",
+      "qualifiedName": "crate::Circle::area",
+      "parent": 9,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 46,
+            "column": 8
+          },
+          "end": {
+            "line": 46,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "draw",
+      "qualifiedName": "crate::Rectangle::draw",
+      "parent": 11,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 52,
+            "column": 8
+          },
+          "end": {
+            "line": 52,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "area",
+      "qualifiedName": "crate::Rectangle::area",
+      "parent": 11,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 56,
+            "column": 8
+          },
+          "end": {
+            "line": 56,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 25,
+      "name": "draw",
+      "qualifiedName": "crate::Triangle::draw",
+      "parent": 14,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 62,
+            "column": 8
+          },
+          "end": {
+            "line": 62,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 27,
+      "name": "area",
+      "qualifiedName": "crate::Triangle::area",
+      "parent": 14,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 66,
+            "column": 8
+          },
+          "end": {
+            "line": 66,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 29,
+      "name": "color",
+      "qualifiedName": "crate::Circle::color",
+      "parent": 9,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 73,
+            "column": 8
+          },
+          "end": {
+            "line": 73,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 31,
+      "name": "color",
+      "qualifiedName": "crate::Rectangle::color",
+      "parent": 11,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 79,
+            "column": 8
+          },
+          "end": {
+            "line": 79,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 33,
+      "name": "print",
+      "qualifiedName": "crate::Circle::print",
+      "parent": 9,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 86,
+            "column": 8
+          },
+          "end": {
+            "line": 86,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 35,
+      "name": "render",
+      "qualifiedName": "crate::render",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 96,
+            "column": 4
+          },
+          "end": {
+            "line": 96,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 36,
+      "name": "shape",
+      "qualifiedName": "crate::render::shape",
+      "parent": 35,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 96,
+            "column": 11
+          },
+          "end": {
+            "line": 96,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 38,
+      "name": "render_boxed",
+      "qualifiedName": "crate::render_boxed",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 101,
+            "column": 4
+          },
+          "end": {
+            "line": 101,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": "shape",
+      "qualifiedName": "crate::render_boxed::shape",
+      "parent": 38,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 101,
+            "column": 17
+          },
+          "end": {
+            "line": 101,
+            "column": 22
+          }
+        }
+      }
+    },
+    {
+      "id": 41,
+      "name": "print_item",
+      "qualifiedName": "crate::print_item",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 106,
+            "column": 4
+          },
+          "end": {
+            "line": 106,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 42,
+      "name": "item",
+      "qualifiedName": "crate::print_item::item",
+      "parent": 41,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 106,
+            "column": 15
+          },
+          "end": {
+            "line": 106,
+            "column": 19
+          }
+        }
+      }
+    },
+    {
+      "id": 44,
+      "name": "render_colored",
+      "qualifiedName": "crate::render_colored",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 111,
+            "column": 4
+          },
+          "end": {
+            "line": 111,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 45,
+      "name": "shape",
+      "qualifiedName": "crate::render_colored::shape",
+      "parent": 44,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 111,
+            "column": 19
+          },
+          "end": {
+            "line": 111,
+            "column": 24
+          }
+        }
+      }
+    },
+    {
+      "id": 47,
+      "name": "main",
+      "qualifiedName": "crate::main",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 117,
+            "column": 4
+          },
+          "end": {
+            "line": 117,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 49,
+      "name": "circle",
+      "qualifiedName": "crate::main::block_13::circle",
+      "parent": 47,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 118,
+            "column": 9
+          },
+          "end": {
+            "line": 118,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 50,
+      "name": "rectangle",
+      "qualifiedName": "crate::main::block_13::rectangle",
+      "parent": 47,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 119,
+            "column": 9
+          },
+          "end": {
+            "line": 119,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 51,
+      "name": "triangle",
+      "qualifiedName": "crate::main::block_13::triangle",
+      "parent": 47,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 123,
+            "column": 9
+          },
+          "end": {
+            "line": 123,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 52,
+      "name": "colored_circle",
+      "qualifiedName": "crate::main::block_13::colored_circle",
+      "parent": 47,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 144,
+            "column": 9
+          },
+          "end": {
+            "line": 144,
+            "column": 23
+          }
+        }
+      }
+    },
+    {
+      "id": 53,
+      "name": "printable_circle",
+      "qualifiedName": "crate::main::block_13::printable_circle",
+      "parent": 47,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 148,
+            "column": 9
+          },
+          "end": {
+            "line": 148,
+            "column": 25
+          }
+        }
+      }
+    },
+    {
+      "id": 54,
+      "name": "printable_rectangle",
+      "qualifiedName": "crate::main::block_13::printable_rectangle",
+      "parent": 47,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 149,
+            "column": 9
+          },
+          "end": {
+            "line": 149,
+            "column": 28
+          }
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from": 0,
+      "to": 1,
+      "category": "Define"
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "category": "Define"
+    },
+    {
+      "from": 1,
+      "to": 3,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 4,
+      "category": "Define"
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "category": "Define"
+    },
+    {
+      "from": 4,
+      "to": 6,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 7,
+      "category": "Define"
+    },
+    {
+      "from": 7,
+      "to": 1,
+      "category": "Inherit"
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 9,
+      "category": "Define"
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 11,
+      "category": "Define"
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "category": "Define"
+    },
+    {
+      "from": 11,
+      "to": 13,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 14,
+      "category": "Define"
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "category": "Define"
+    },
+    {
+      "from": 14,
+      "to": 16,
+      "category": "Define"
+    },
+    {
+      "from": 9,
+      "to": 17,
+      "category": "Define"
+    },
+    {
+      "from": 17,
+      "to": 2,
+      "category": "Implement"
+    },
+    {
+      "from": 9,
+      "to": 19,
+      "category": "Define"
+    },
+    {
+      "from": 19,
+      "to": 3,
+      "category": "Implement"
+    },
+    {
+      "from": 11,
+      "to": 21,
+      "category": "Define"
+    },
+    {
+      "from": 21,
+      "to": 2,
+      "category": "Implement"
+    },
+    {
+      "from": 11,
+      "to": 23,
+      "category": "Define"
+    },
+    {
+      "from": 23,
+      "to": 3,
+      "category": "Implement"
+    },
+    {
+      "from": 14,
+      "to": 25,
+      "category": "Define"
+    },
+    {
+      "from": 25,
+      "to": 2,
+      "category": "Implement"
+    },
+    {
+      "from": 14,
+      "to": 27,
+      "category": "Define"
+    },
+    {
+      "from": 27,
+      "to": 3,
+      "category": "Implement"
+    },
+    {
+      "from": 9,
+      "to": 29,
+      "category": "Define"
+    },
+    {
+      "from": 29,
+      "to": 8,
+      "category": "Implement"
+    },
+    {
+      "from": 11,
+      "to": 31,
+      "category": "Define"
+    },
+    {
+      "from": 31,
+      "to": 8,
+      "category": "Implement"
+    },
+    {
+      "from": 9,
+      "to": 33,
+      "category": "Define"
+    },
+    {
+      "from": 33,
+      "to": 5,
+      "category": "Implement"
+    },
+    {
+      "from": 0,
+      "to": 35,
+      "category": "Define"
+    },
+    {
+      "from": 35,
+      "to": 36,
+      "category": "Define"
+    },
+    {
+      "from": 35,
+      "to": 36,
+      "category": "Contain"
+    },
+    {
+      "from": 35,
+      "to": 2,
+      "category": "Call"
+    },
+    {
+      "from": 35,
+      "to": 17,
+      "category": "Call"
+    },
+    {
+      "from": 35,
+      "to": 21,
+      "category": "Call"
+    },
+    {
+      "from": 35,
+      "to": 25,
+      "category": "Call"
+    },
+    {
+      "from": 35,
+      "to": 36,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 38,
+      "category": "Define"
+    },
+    {
+      "from": 38,
+      "to": 39,
+      "category": "Define"
+    },
+    {
+      "from": 38,
+      "to": 39,
+      "category": "Contain"
+    },
+    {
+      "from": 38,
+      "to": 2,
+      "category": "Call"
+    },
+    {
+      "from": 38,
+      "to": 17,
+      "category": "Call"
+    },
+    {
+      "from": 38,
+      "to": 21,
+      "category": "Call"
+    },
+    {
+      "from": 38,
+      "to": 25,
+      "category": "Call"
+    },
+    {
+      "from": 38,
+      "to": 39,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 41,
+      "category": "Define"
+    },
+    {
+      "from": 41,
+      "to": 42,
+      "category": "Define"
+    },
+    {
+      "from": 41,
+      "to": 42,
+      "category": "Contain"
+    },
+    {
+      "from": 41,
+      "to": 5,
+      "category": "Call"
+    },
+    {
+      "from": 41,
+      "to": 33,
+      "category": "Call"
+    },
+    {
+      "from": 41,
+      "to": 42,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 44,
+      "category": "Define"
+    },
+    {
+      "from": 44,
+      "to": 45,
+      "category": "Define"
+    },
+    {
+      "from": 44,
+      "to": 45,
+      "category": "Contain"
+    },
+    {
+      "from": 44,
+      "to": 2,
+      "category": "Call"
+    },
+    {
+      "from": 44,
+      "to": 17,
+      "category": "Call"
+    },
+    {
+      "from": 44,
+      "to": 21,
+      "category": "Call"
+    },
+    {
+      "from": 44,
+      "to": 25,
+      "category": "Call"
+    },
+    {
+      "from": 44,
+      "to": 45,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 47,
+      "category": "Define"
+    },
+    {
+      "from": 47,
+      "to": 9,
+      "category": "Call"
+    },
+    {
+      "from": 47,
+      "to": 11,
+      "category": "Call"
+    },
+    {
+      "from": 47,
+      "to": 14,
+      "category": "Call"
+    },
+    {
+      "from": 47,
+      "to": 49,
+      "category": "UseVar"
+    },
+    {
+      "from": 47,
+      "to": 50,
+      "category": "UseVar"
+    },
+    {
+      "from": 47,
+      "to": 51,
+      "category": "UseVar"
+    },
+    {
+      "from": 47,
+      "to": 35,
+      "category": "Call"
+    },
+    {
+      "from": 47,
+      "to": 38,
+      "category": "Call"
+    },
+    {
+      "from": 47,
+      "to": 44,
+      "category": "Call"
+    },
+    {
+      "from": 47,
+      "to": 52,
+      "category": "UseVar"
+    },
+    {
+      "from": 47,
+      "to": 41,
+      "category": "Call"
+    },
+    {
+      "from": 47,
+      "to": 53,
+      "category": "UseVar"
+    },
+    {
+      "from": 47,
+      "to": 54,
+      "category": "UseVar"
+    },
+    {
+      "from": 47,
+      "to": 49,
+      "category": "Define"
+    },
+    {
+      "from": 47,
+      "to": 50,
+      "category": "Define"
+    },
+    {
+      "from": 47,
+      "to": 51,
+      "category": "Define"
+    },
+    {
+      "from": 47,
+      "to": 52,
+      "category": "Define"
+    },
+    {
+      "from": 47,
+      "to": 53,
+      "category": "Define"
+    },
+    {
+      "from": 47,
+      "to": 54,
+      "category": "Define"
+    }
+  ],
+  "meta": null
+}

@@ -1,0 +1,577 @@
+{
+  "entities": [
+    {
+      "id": 0,
+      "name": "crate",
+      "qualifiedName": "crate",
+      "parent": null,
+      "category": "Crate",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Summary",
+      "qualifiedName": "crate::Summary",
+      "parent": 0,
+      "category": "Trait",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 2,
+            "column": 11
+          },
+          "end": {
+            "line": 2,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "summarize",
+      "qualifiedName": "crate::Summary::summarize",
+      "parent": 1,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 4,
+            "column": 8
+          },
+          "end": {
+            "line": 4,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Post",
+      "qualifiedName": "crate::Post",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 6,
+            "column": 12
+          },
+          "end": {
+            "line": 6,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "title",
+      "qualifiedName": "crate::Post::title",
+      "parent": 3,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 8,
+            "column": 9
+          },
+          "end": {
+            "line": 8,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "author",
+      "qualifiedName": "crate::Post::author",
+      "parent": 3,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 9,
+            "column": 9
+          },
+          "end": {
+            "line": 9,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "content",
+      "qualifiedName": "crate::Post::content",
+      "parent": 3,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 10,
+            "column": 9
+          },
+          "end": {
+            "line": 10,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "summarize",
+      "qualifiedName": "crate::Post::summarize",
+      "parent": 3,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 15,
+            "column": 8
+          },
+          "end": {
+            "line": 15,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Weibo",
+      "qualifiedName": "crate::Weibo",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 21,
+            "column": 12
+          },
+          "end": {
+            "line": 21,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "username",
+      "qualifiedName": "crate::Weibo::username",
+      "parent": 9,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 23,
+            "column": 9
+          },
+          "end": {
+            "line": 23,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "content",
+      "qualifiedName": "crate::Weibo::content",
+      "parent": 9,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 24,
+            "column": 9
+          },
+          "end": {
+            "line": 24,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "summarize",
+      "qualifiedName": "crate::Weibo::summarize",
+      "parent": 9,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 29,
+            "column": 8
+          },
+          "end": {
+            "line": 29,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Printable",
+      "qualifiedName": "crate::Printable",
+      "parent": 0,
+      "category": "Trait",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 35,
+            "column": 7
+          },
+          "end": {
+            "line": 35,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "print",
+      "qualifiedName": "crate::Printable::print",
+      "parent": 14,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 37,
+            "column": 8
+          },
+          "end": {
+            "line": 37,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "Debuggable",
+      "qualifiedName": "crate::Debuggable",
+      "parent": 0,
+      "category": "Trait",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 41,
+            "column": 7
+          },
+          "end": {
+            "line": 41,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "debug",
+      "qualifiedName": "crate::Debuggable::debug",
+      "parent": 16,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 43,
+            "column": 8
+          },
+          "end": {
+            "line": 43,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "A",
+      "qualifiedName": "crate::A",
+      "parent": 0,
+      "category": "Trait",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 46,
+            "column": 7
+          },
+          "end": {
+            "line": 46,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "func_a",
+      "qualifiedName": "crate::A::func_a",
+      "parent": 18,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 48,
+            "column": 8
+          },
+          "end": {
+            "line": 48,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "B",
+      "qualifiedName": "crate::B",
+      "parent": 0,
+      "category": "Trait",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 52,
+            "column": 7
+          },
+          "end": {
+            "line": 52,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "func_b",
+      "qualifiedName": "crate::B::func_b",
+      "parent": 20,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 54,
+            "column": 8
+          },
+          "end": {
+            "line": 54,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "C",
+      "qualifiedName": "crate::C",
+      "parent": 0,
+      "category": "Trait",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 58,
+            "column": 7
+          },
+          "end": {
+            "line": 58,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "func_c",
+      "qualifiedName": "crate::C::func_c",
+      "parent": 22,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 60,
+            "column": 8
+          },
+          "end": {
+            "line": 60,
+            "column": 14
+          }
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from": 0,
+      "to": 1,
+      "category": "Define"
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 3,
+      "category": "Define"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "category": "Define"
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "category": "Define"
+    },
+    {
+      "from": 3,
+      "to": 6,
+      "category": "Define"
+    },
+    {
+      "from": 3,
+      "to": 7,
+      "category": "Define"
+    },
+    {
+      "from": 7,
+      "to": 2,
+      "category": "Implement"
+    },
+    {
+      "from": 0,
+      "to": 9,
+      "category": "Define"
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "category": "Define"
+    },
+    {
+      "from": 9,
+      "to": 11,
+      "category": "Define"
+    },
+    {
+      "from": 9,
+      "to": 12,
+      "category": "Define"
+    },
+    {
+      "from": 12,
+      "to": 2,
+      "category": "Implement"
+    },
+    {
+      "from": 0,
+      "to": 14,
+      "category": "Define"
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 16,
+      "category": "Define"
+    },
+    {
+      "from": 16,
+      "to": 14,
+      "category": "Inherit"
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 18,
+      "category": "Define"
+    },
+    {
+      "from": 18,
+      "to": 19,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 20,
+      "category": "Define"
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 22,
+      "category": "Define"
+    },
+    {
+      "from": 22,
+      "to": 18,
+      "category": "Inherit"
+    },
+    {
+      "from": 22,
+      "to": 20,
+      "category": "Inherit"
+    },
+    {
+      "from": 22,
+      "to": 23,
+      "category": "Define"
+    }
+  ],
+  "meta": null
+}

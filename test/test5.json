@@ -1,0 +1,2517 @@
+{
+  "entities": [
+    {
+      "id": 0,
+      "name": "crate",
+      "qualifiedName": "crate",
+      "parent": null,
+      "category": "Crate",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Command",
+      "qualifiedName": "crate::Command",
+      "parent": 0,
+      "category": "Import",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 21
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "common",
+      "qualifiedName": "crate::common",
+      "parent": 0,
+      "category": "Import",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 8,
+            "column": 5
+          },
+          "end": {
+            "line": 8,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Dict",
+      "qualifiedName": "crate::Dict",
+      "parent": 0,
+      "category": "Import",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 9,
+            "column": 23
+          },
+          "end": {
+            "line": 9,
+            "column": 27
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "DictEntry",
+      "qualifiedName": "crate::DictEntry",
+      "parent": 0,
+      "category": "Import",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 9,
+            "column": 38
+          },
+          "end": {
+            "line": 9,
+            "column": 47
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "PartialEq",
+      "qualifiedName": "crate::PartialEq",
+      "parent": 0,
+      "category": "Import",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 13,
+            "column": 5
+          },
+          "end": {
+            "line": 13,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "ToString",
+      "qualifiedName": "crate::ToString",
+      "parent": 0,
+      "category": "Import",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 16,
+            "column": 5
+          },
+          "end": {
+            "line": 16,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Hash",
+      "qualifiedName": "crate::Hash",
+      "parent": 0,
+      "category": "Import",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 22,
+            "column": 17
+          },
+          "end": {
+            "line": 22,
+            "column": 21
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "vec",
+      "qualifiedName": "crate::vec",
+      "parent": 0,
+      "category": "Import",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 22,
+            "column": 23
+          },
+          "end": {
+            "line": 22,
+            "column": 26
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "mpsc",
+      "qualifiedName": "crate::mpsc",
+      "parent": 0,
+      "category": "Import",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 25,
+            "column": 18
+          },
+          "end": {
+            "line": 25,
+            "column": 22
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "DbHandler",
+      "qualifiedName": "crate::DbHandler",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 32,
+            "column": 12
+          },
+          "end": {
+            "line": 32,
+            "column": 21
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "sender_list",
+      "qualifiedName": "crate::DbHandler::sender_list",
+      "parent": 10,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 34,
+            "column": 5
+          },
+          "end": {
+            "line": 34,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "KedisKey",
+      "qualifiedName": "crate::KedisKey",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 42,
+            "column": 12
+          },
+          "end": {
+            "line": 42,
+            "column": 20
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "key",
+      "qualifiedName": "crate::KedisKey::key",
+      "parent": 12,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 44,
+            "column": 5
+          },
+          "end": {
+            "line": 44,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "ttl",
+      "qualifiedName": "crate::KedisKey::ttl",
+      "parent": 12,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 46,
+            "column": 5
+          },
+          "end": {
+            "line": 46,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "new",
+      "qualifiedName": "crate::KedisKey::new",
+      "parent": 12,
+      "category": "AssociatedFunction",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 54,
+            "column": 12
+          },
+          "end": {
+            "line": 54,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "key",
+      "qualifiedName": "crate::KedisKey::new::key",
+      "parent": 15,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 54,
+            "column": 16
+          },
+          "end": {
+            "line": 54,
+            "column": 19
+          }
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "set_ttl",
+      "qualifiedName": "crate::KedisKey::set_ttl",
+      "parent": 12,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 62,
+            "column": 12
+          },
+          "end": {
+            "line": 62,
+            "column": 19
+          }
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "ttl",
+      "qualifiedName": "crate::KedisKey::set_ttl::ttl",
+      "parent": 17,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 62,
+            "column": 31
+          },
+          "end": {
+            "line": 62,
+            "column": 34
+          }
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "eq",
+      "qualifiedName": "crate::KedisKey::eq",
+      "parent": 12,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 75,
+            "column": 8
+          },
+          "end": {
+            "line": 75,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "other",
+      "qualifiedName": "crate::KedisKey::eq::other",
+      "parent": 20,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 75,
+            "column": 18
+          },
+          "end": {
+            "line": 75,
+            "column": 23
+          }
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "hash",
+      "qualifiedName": "crate::KedisKey::hash",
+      "parent": 12,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 88,
+            "column": 8
+          },
+          "end": {
+            "line": 88,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 24,
+      "name": "state",
+      "qualifiedName": "crate::KedisKey::hash::state",
+      "parent": 23,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 88,
+            "column": 42
+          },
+          "end": {
+            "line": 88,
+            "column": 47
+          }
+        }
+      }
+    },
+    {
+      "id": 26,
+      "name": "to_string",
+      "qualifiedName": "crate::KedisKey::to_string",
+      "parent": 12,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 100,
+            "column": 8
+          },
+          "end": {
+            "line": 100,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 28,
+      "name": "Db",
+      "qualifiedName": "crate::Db",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 112,
+            "column": 12
+          },
+          "end": {
+            "line": 112,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 29,
+      "name": "dict",
+      "qualifiedName": "crate::Db::dict",
+      "parent": 28,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 114,
+            "column": 5
+          },
+          "end": {
+            "line": 114,
+            "column": 9
+          }
+        }
+      }
+    },
+    {
+      "id": 30,
+      "name": "sender",
+      "qualifiedName": "crate::Db::sender",
+      "parent": 28,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 116,
+            "column": 5
+          },
+          "end": {
+            "line": 116,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 31,
+      "name": "receiver",
+      "qualifiedName": "crate::Db::receiver",
+      "parent": 28,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 118,
+            "column": 5
+          },
+          "end": {
+            "line": 118,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 32,
+      "name": "Structure",
+      "qualifiedName": "crate::Structure",
+      "parent": 0,
+      "category": "Enum",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 125,
+            "column": 10
+          },
+          "end": {
+            "line": 125,
+            "column": 19
+          }
+        }
+      }
+    },
+    {
+      "id": 33,
+      "name": "String",
+      "qualifiedName": "crate::Structure::String",
+      "parent": 32,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 127,
+            "column": 5
+          },
+          "end": {
+            "line": 127,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 34,
+      "name": "_0",
+      "qualifiedName": "crate::Structure::String::_0",
+      "parent": 33,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 127,
+            "column": 5
+          },
+          "end": {
+            "line": 127,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 35,
+      "name": "Hash",
+      "qualifiedName": "crate::Structure::Hash",
+      "parent": 32,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 129,
+            "column": 5
+          },
+          "end": {
+            "line": 129,
+            "column": 9
+          }
+        }
+      }
+    },
+    {
+      "id": 36,
+      "name": "List",
+      "qualifiedName": "crate::Structure::List",
+      "parent": 32,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 131,
+            "column": 5
+          },
+          "end": {
+            "line": 131,
+            "column": 9
+          }
+        }
+      }
+    },
+    {
+      "id": 37,
+      "name": "Set",
+      "qualifiedName": "crate::Structure::Set",
+      "parent": 32,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 133,
+            "column": 5
+          },
+          "end": {
+            "line": 133,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 38,
+      "name": "SortSet",
+      "qualifiedName": "crate::Structure::SortSet",
+      "parent": 32,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 135,
+            "column": 5
+          },
+          "end": {
+            "line": 135,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": "new",
+      "qualifiedName": "crate::DbHandler::new",
+      "parent": 10,
+      "category": "AssociatedFunction",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 145,
+            "column": 12
+          },
+          "end": {
+            "line": 145,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 40,
+      "name": "size",
+      "qualifiedName": "crate::DbHandler::new::size",
+      "parent": 39,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 145,
+            "column": 16
+          },
+          "end": {
+            "line": 145,
+            "column": 20
+          }
+        }
+      }
+    },
+    {
+      "id": 41,
+      "name": "db_list",
+      "qualifiedName": "crate::DbHandler::new::db_list",
+      "parent": 39,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 148,
+            "column": 17
+          },
+          "end": {
+            "line": 148,
+            "column": 24
+          }
+        }
+      }
+    },
+    {
+      "id": 42,
+      "name": "sender_list",
+      "qualifiedName": "crate::DbHandler::new::sender_list",
+      "parent": 39,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 151,
+            "column": 17
+          },
+          "end": {
+            "line": 151,
+            "column": 28
+          }
+        }
+      }
+    },
+    {
+      "id": 43,
+      "name": "_idx",
+      "qualifiedName": "crate::DbHandler::new::_idx",
+      "parent": 39,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 154,
+            "column": 13
+          },
+          "end": {
+            "line": 154,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 44,
+      "name": "db",
+      "qualifiedName": "crate::DbHandler::new::db",
+      "parent": 39,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 158,
+            "column": 17
+          },
+          "end": {
+            "line": 158,
+            "column": 19
+          }
+        }
+      }
+    },
+    {
+      "id": 45,
+      "name": "async_45",
+      "qualifiedName": "crate::DbHandler::new::async_45",
+      "parent": 39,
+      "category": "AsyncBlock",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 173,
+            "column": 26
+          },
+          "end": {
+            "line": 173,
+            "column": 31
+          }
+        }
+      }
+    },
+    {
+      "id": 46,
+      "name": "async_46",
+      "qualifiedName": "crate::DbHandler::new::async_46",
+      "parent": 39,
+      "category": "AsyncBlock",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 173,
+            "column": 26
+          },
+          "end": {
+            "line": 173,
+            "column": 31
+          }
+        }
+      }
+    },
+    {
+      "id": 47,
+      "name": "get_sender",
+      "qualifiedName": "crate::DbHandler::get_sender",
+      "parent": 10,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 184,
+            "column": 12
+          },
+          "end": {
+            "line": 184,
+            "column": 22
+          }
+        }
+      }
+    },
+    {
+      "id": 48,
+      "name": "idx",
+      "qualifiedName": "crate::DbHandler::get_sender::idx",
+      "parent": 47,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 184,
+            "column": 30
+          },
+          "end": {
+            "line": 184,
+            "column": 33
+          }
+        }
+      }
+    },
+    {
+      "id": 50,
+      "name": "closure_50",
+      "qualifiedName": "crate::DbHandler::get_sender::block_4::closure_50",
+      "parent": 47,
+      "category": "Closure",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 187,
+            "column": 46
+          },
+          "end": {
+            "line": 187,
+            "column": 65
+          }
+        }
+      }
+    },
+    {
+      "id": 51,
+      "name": "get_size",
+      "qualifiedName": "crate::DbHandler::get_size",
+      "parent": 10,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 191,
+            "column": 12
+          },
+          "end": {
+            "line": 191,
+            "column": 20
+          }
+        }
+      }
+    },
+    {
+      "id": 53,
+      "name": "db",
+      "qualifiedName": "crate::db",
+      "parent": 0,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 170,
+            "column": 17
+          },
+          "end": {
+            "line": 170,
+            "column": 19
+          }
+        }
+      }
+    },
+    {
+      "id": 54,
+      "name": "async_54",
+      "qualifiedName": "crate::async_54",
+      "parent": 0,
+      "category": "AsyncBlock",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 173,
+            "column": 26
+          },
+          "end": {
+            "line": 173,
+            "column": 31
+          }
+        }
+      }
+    },
+    {
+      "id": 55,
+      "name": "async_55",
+      "qualifiedName": "crate::async_55",
+      "parent": 0,
+      "category": "AsyncBlock",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 173,
+            "column": 26
+          },
+          "end": {
+            "line": 173,
+            "column": 31
+          }
+        }
+      }
+    },
+    {
+      "id": 56,
+      "name": "closure_56",
+      "qualifiedName": "crate::closure_56",
+      "parent": 0,
+      "category": "Closure",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 187,
+            "column": 46
+          },
+          "end": {
+            "line": 187,
+            "column": 65
+          }
+        }
+      }
+    },
+    {
+      "id": 57,
+      "name": "new",
+      "qualifiedName": "crate::Db::new",
+      "parent": 28,
+      "category": "AssociatedFunction",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 202,
+            "column": 12
+          },
+          "end": {
+            "line": 202,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 58,
+      "name": "tx",
+      "qualifiedName": "crate::Db::new::tx",
+      "parent": 57,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 207,
+            "column": 14
+          },
+          "end": {
+            "line": 207,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 59,
+      "name": "rx",
+      "qualifiedName": "crate::Db::new::rx",
+      "parent": 57,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 207,
+            "column": 18
+          },
+          "end": {
+            "line": 207,
+            "column": 20
+          }
+        }
+      }
+    },
+    {
+      "id": 60,
+      "name": "run",
+      "qualifiedName": "crate::Db::run",
+      "parent": 28,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 219,
+            "column": 14
+          },
+          "end": {
+            "line": 219,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 63,
+      "name": "frame",
+      "qualifiedName": "crate::Db::run::block_6::block_7::frame",
+      "parent": 60,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 233,
+            "column": 17
+          },
+          "end": {
+            "line": 233,
+            "column": 22
+          }
+        }
+      }
+    },
+    {
+      "id": 64,
+      "name": "get_pattern_entry",
+      "qualifiedName": "crate::Db::get_pattern_entry",
+      "parent": 28,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 270,
+            "column": 12
+          },
+          "end": {
+            "line": 270,
+            "column": 29
+          }
+        }
+      }
+    },
+    {
+      "id": 65,
+      "name": "pre_idx",
+      "qualifiedName": "crate::Db::get_pattern_entry::pre_idx",
+      "parent": 64,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 272,
+            "column": 9
+          },
+          "end": {
+            "line": 272,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 66,
+      "name": "match_str",
+      "qualifiedName": "crate::Db::get_pattern_entry::match_str",
+      "parent": 64,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 273,
+            "column": 9
+          },
+          "end": {
+            "line": 273,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 67,
+      "name": "count",
+      "qualifiedName": "crate::Db::get_pattern_entry::count",
+      "parent": 64,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 274,
+            "column": 9
+          },
+          "end": {
+            "line": 274,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 69,
+      "name": "item",
+      "qualifiedName": "crate::Db::get_pattern_entry::block_8::item",
+      "parent": 64,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 278,
+            "column": 13
+          },
+          "end": {
+            "line": 278,
+            "column": 17
+          }
+        }
+      }
+    },
+    {
+      "id": 70,
+      "name": "list",
+      "qualifiedName": "crate::Db::get_pattern_entry::block_8::list",
+      "parent": 64,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 281,
+            "column": 17
+          },
+          "end": {
+            "line": 281,
+            "column": 21
+          }
+        }
+      }
+    },
+    {
+      "id": 71,
+      "name": "key",
+      "qualifiedName": "crate::Db::get_pattern_entry::block_8::key",
+      "parent": 64,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 283,
+            "column": 13
+          },
+          "end": {
+            "line": 283,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 76,
+      "name": "insert",
+      "qualifiedName": "crate::Db::insert",
+      "parent": 28,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 302,
+            "column": 12
+          },
+          "end": {
+            "line": 302,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 77,
+      "name": "key",
+      "qualifiedName": "crate::Db::insert::key",
+      "parent": 76,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 302,
+            "column": 30
+          },
+          "end": {
+            "line": 302,
+            "column": 33
+          }
+        }
+      }
+    },
+    {
+      "id": 78,
+      "name": "value",
+      "qualifiedName": "crate::Db::insert::value",
+      "parent": 76,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 302,
+            "column": 45
+          },
+          "end": {
+            "line": 302,
+            "column": 50
+          }
+        }
+      }
+    },
+    {
+      "id": 81,
+      "name": "get",
+      "qualifiedName": "crate::Db::get",
+      "parent": 28,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 323,
+            "column": 12
+          },
+          "end": {
+            "line": 323,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 82,
+      "name": "key",
+      "qualifiedName": "crate::Db::get::key",
+      "parent": 81,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 323,
+            "column": 27
+          },
+          "end": {
+            "line": 323,
+            "column": 30
+          }
+        }
+      }
+    },
+    {
+      "id": 84,
+      "name": "entry",
+      "qualifiedName": "crate::Db::get::block_15::entry",
+      "parent": 81,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 329,
+            "column": 13
+          },
+          "end": {
+            "line": 329,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 85,
+      "name": "get_mut",
+      "qualifiedName": "crate::Db::get_mut",
+      "parent": 28,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 339,
+            "column": 12
+          },
+          "end": {
+            "line": 339,
+            "column": 19
+          }
+        }
+      }
+    },
+    {
+      "id": 86,
+      "name": "key",
+      "qualifiedName": "crate::Db::get_mut::key",
+      "parent": 85,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 339,
+            "column": 31
+          },
+          "end": {
+            "line": 339,
+            "column": 34
+          }
+        }
+      }
+    },
+    {
+      "id": 88,
+      "name": "entry",
+      "qualifiedName": "crate::Db::get_mut::block_16::entry",
+      "parent": 85,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 345,
+            "column": 13
+          },
+          "end": {
+            "line": 345,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 89,
+      "name": "get_entry",
+      "qualifiedName": "crate::Db::get_entry",
+      "parent": 28,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 354,
+            "column": 12
+          },
+          "end": {
+            "line": 354,
+            "column": 21
+          }
+        }
+      }
+    },
+    {
+      "id": 90,
+      "name": "key",
+      "qualifiedName": "crate::Db::get_entry::key",
+      "parent": 89,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 354,
+            "column": 33
+          },
+          "end": {
+            "line": 354,
+            "column": 36
+          }
+        }
+      }
+    },
+    {
+      "id": 92,
+      "name": "get_mut_entry",
+      "qualifiedName": "crate::Db::get_mut_entry",
+      "parent": 28,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 367,
+            "column": 12
+          },
+          "end": {
+            "line": 367,
+            "column": 25
+          }
+        }
+      }
+    },
+    {
+      "id": 93,
+      "name": "key",
+      "qualifiedName": "crate::Db::get_mut_entry::key",
+      "parent": 92,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 367,
+            "column": 37
+          },
+          "end": {
+            "line": 367,
+            "column": 40
+          }
+        }
+      }
+    },
+    {
+      "id": 95,
+      "name": "remove",
+      "qualifiedName": "crate::Db::remove",
+      "parent": 28,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 379,
+            "column": 12
+          },
+          "end": {
+            "line": 379,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 96,
+      "name": "key",
+      "qualifiedName": "crate::Db::remove::key",
+      "parent": 95,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 379,
+            "column": 30
+          },
+          "end": {
+            "line": 379,
+            "column": 33
+          }
+        }
+      }
+    },
+    {
+      "id": 98,
+      "name": "remove_expired_key",
+      "qualifiedName": "crate::Db::remove_expired_key",
+      "parent": 28,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 391,
+            "column": 8
+          },
+          "end": {
+            "line": 391,
+            "column": 26
+          }
+        }
+      }
+    },
+    {
+      "id": 99,
+      "name": "key",
+      "qualifiedName": "crate::Db::remove_expired_key::key",
+      "parent": 98,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 391,
+            "column": 38
+          },
+          "end": {
+            "line": 391,
+            "column": 41
+          }
+        }
+      }
+    },
+    {
+      "id": 101,
+      "name": "entry",
+      "qualifiedName": "crate::Db::remove_expired_key::block_20::entry",
+      "parent": 98,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 394,
+            "column": 13
+          },
+          "end": {
+            "line": 394,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 104,
+      "name": "check_expired",
+      "qualifiedName": "crate::Db::check_expired",
+      "parent": 28,
+      "category": "AssociatedFunction",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 413,
+            "column": 8
+          },
+          "end": {
+            "line": 413,
+            "column": 21
+          }
+        }
+      }
+    },
+    {
+      "id": 105,
+      "name": "ttl",
+      "qualifiedName": "crate::Db::check_expired::ttl",
+      "parent": 104,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 413,
+            "column": 22
+          },
+          "end": {
+            "line": 413,
+            "column": 25
+          }
+        }
+      }
+    },
+    {
+      "id": 106,
+      "name": "get_type",
+      "qualifiedName": "crate::Structure::get_type",
+      "parent": 32,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 427,
+            "column": 12
+          },
+          "end": {
+            "line": 427,
+            "column": 20
+          }
+        }
+      }
+    },
+    {
+      "id": 108,
+      "name": "get_expired_by_seconds",
+      "qualifiedName": "crate::KedisKey::get_expired_by_seconds",
+      "parent": 12,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 449,
+            "column": 12
+          },
+          "end": {
+            "line": 449,
+            "column": 34
+          }
+        }
+      }
+    },
+    {
+      "id": 110,
+      "name": "ttl",
+      "qualifiedName": "crate::KedisKey::get_expired_by_seconds::block_24::ttl",
+      "parent": 108,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 453,
+            "column": 17
+          },
+          "end": {
+            "line": 453,
+            "column": 20
+          }
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from": 0,
+      "to": 1,
+      "category": "Use"
+    },
+    {
+      "from": 0,
+      "to": 2,
+      "category": "Use"
+    },
+    {
+      "from": 0,
+      "to": 3,
+      "category": "Use"
+    },
+    {
+      "from": 0,
+      "to": 4,
+      "category": "Use"
+    },
+    {
+      "from": 0,
+      "to": 5,
+      "category": "Use"
+    },
+    {
+      "from": 0,
+      "to": 6,
+      "category": "Use"
+    },
+    {
+      "from": 0,
+      "to": 7,
+      "category": "Use"
+    },
+    {
+      "from": 0,
+      "to": 8,
+      "category": "Use"
+    },
+    {
+      "from": 0,
+      "to": 9,
+      "category": "Use"
+    },
+    {
+      "from": 0,
+      "to": 10,
+      "category": "Define"
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 12,
+      "category": "Define"
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "category": "Define"
+    },
+    {
+      "from": 12,
+      "to": 14,
+      "category": "Define"
+    },
+    {
+      "from": 12,
+      "to": 15,
+      "category": "Define"
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 16,
+      "category": "UseVar"
+    },
+    {
+      "from": 12,
+      "to": 17,
+      "category": "Define"
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "category": "Define"
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "category": "UseVar"
+    },
+    {
+      "from": 12,
+      "to": 5,
+      "category": "Impl"
+    },
+    {
+      "from": 12,
+      "to": 20,
+      "category": "Define"
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "category": "Define"
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "category": "UseVar"
+    },
+    {
+      "from": 12,
+      "to": 7,
+      "category": "Impl"
+    },
+    {
+      "from": 12,
+      "to": 23,
+      "category": "Define"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "category": "Define"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "category": "UseVar"
+    },
+    {
+      "from": 12,
+      "to": 6,
+      "category": "Impl"
+    },
+    {
+      "from": 12,
+      "to": 26,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 28,
+      "category": "Define"
+    },
+    {
+      "from": 28,
+      "to": 29,
+      "category": "Define"
+    },
+    {
+      "from": 28,
+      "to": 30,
+      "category": "Define"
+    },
+    {
+      "from": 28,
+      "to": 31,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 32,
+      "category": "Define"
+    },
+    {
+      "from": 32,
+      "to": 33,
+      "category": "Define"
+    },
+    {
+      "from": 33,
+      "to": 34,
+      "category": "Define"
+    },
+    {
+      "from": 32,
+      "to": 35,
+      "category": "Define"
+    },
+    {
+      "from": 32,
+      "to": 36,
+      "category": "Define"
+    },
+    {
+      "from": 32,
+      "to": 37,
+      "category": "Define"
+    },
+    {
+      "from": 32,
+      "to": 38,
+      "category": "Define"
+    },
+    {
+      "from": 10,
+      "to": 39,
+      "category": "Define"
+    },
+    {
+      "from": 39,
+      "to": 40,
+      "category": "Define"
+    },
+    {
+      "from": 39,
+      "to": 41,
+      "category": "Define"
+    },
+    {
+      "from": 39,
+      "to": 41,
+      "category": "Contain"
+    },
+    {
+      "from": 39,
+      "to": 42,
+      "category": "Define"
+    },
+    {
+      "from": 39,
+      "to": 42,
+      "category": "Contain"
+    },
+    {
+      "from": 39,
+      "to": 43,
+      "category": "Define"
+    },
+    {
+      "from": 39,
+      "to": 43,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 40,
+      "category": "UseVar"
+    },
+    {
+      "from": 39,
+      "to": 44,
+      "category": "Define"
+    },
+    {
+      "from": 39,
+      "to": 44,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 39,
+      "category": "Call"
+    },
+    {
+      "from": 0,
+      "to": 42,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 44,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 41,
+      "category": "UseVar"
+    },
+    {
+      "from": 39,
+      "to": 45,
+      "category": "Define"
+    },
+    {
+      "from": 45,
+      "to": 44,
+      "category": "UseVar"
+    },
+    {
+      "from": 39,
+      "to": 46,
+      "category": "Define"
+    },
+    {
+      "from": 46,
+      "to": 44,
+      "category": "UseVar"
+    },
+    {
+      "from": 10,
+      "to": 47,
+      "category": "Define"
+    },
+    {
+      "from": 47,
+      "to": 48,
+      "category": "Define"
+    },
+    {
+      "from": 47,
+      "to": 48,
+      "category": "UseVar"
+    },
+    {
+      "from": 10,
+      "to": 51,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 41,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 42,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 43,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 44,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 53,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 53,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 54,
+      "category": "Define"
+    },
+    {
+      "from": 54,
+      "to": 53,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 55,
+      "category": "Define"
+    },
+    {
+      "from": 55,
+      "to": 53,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 56,
+      "category": "Define"
+    },
+    {
+      "from": 28,
+      "to": 57,
+      "category": "Define"
+    },
+    {
+      "from": 57,
+      "to": 58,
+      "category": "Define"
+    },
+    {
+      "from": 57,
+      "to": 58,
+      "category": "Contain"
+    },
+    {
+      "from": 57,
+      "to": 59,
+      "category": "Define"
+    },
+    {
+      "from": 57,
+      "to": 59,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 57,
+      "category": "Call"
+    },
+    {
+      "from": 0,
+      "to": 58,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 59,
+      "category": "UseVar"
+    },
+    {
+      "from": 28,
+      "to": 60,
+      "category": "Define"
+    },
+    {
+      "from": 60,
+      "to": 30,
+      "category": "UseVar"
+    },
+    {
+      "from": 60,
+      "to": 63,
+      "category": "UseVar"
+    },
+    {
+      "from": 28,
+      "to": 64,
+      "category": "Define"
+    },
+    {
+      "from": 64,
+      "to": 65,
+      "category": "Define"
+    },
+    {
+      "from": 64,
+      "to": 66,
+      "category": "Define"
+    },
+    {
+      "from": 64,
+      "to": 67,
+      "category": "Define"
+    },
+    {
+      "from": 64,
+      "to": 65,
+      "category": "UseVar"
+    },
+    {
+      "from": 64,
+      "to": 66,
+      "category": "UseVar"
+    },
+    {
+      "from": 64,
+      "to": 67,
+      "category": "UseVar"
+    },
+    {
+      "from": 64,
+      "to": 69,
+      "category": "UseVar"
+    },
+    {
+      "from": 64,
+      "to": 15,
+      "category": "Call"
+    },
+    {
+      "from": 64,
+      "to": 71,
+      "category": "UseVar"
+    },
+    {
+      "from": 64,
+      "to": 70,
+      "category": "UseVar"
+    },
+    {
+      "from": 28,
+      "to": 76,
+      "category": "Define"
+    },
+    {
+      "from": 76,
+      "to": 77,
+      "category": "Define"
+    },
+    {
+      "from": 76,
+      "to": 78,
+      "category": "Define"
+    },
+    {
+      "from": 76,
+      "to": 77,
+      "category": "UseVar"
+    },
+    {
+      "from": 76,
+      "to": 78,
+      "category": "UseVar"
+    },
+    {
+      "from": 28,
+      "to": 81,
+      "category": "Define"
+    },
+    {
+      "from": 81,
+      "to": 82,
+      "category": "Define"
+    },
+    {
+      "from": 81,
+      "to": 82,
+      "category": "UseVar"
+    },
+    {
+      "from": 81,
+      "to": 84,
+      "category": "UseVar"
+    },
+    {
+      "from": 28,
+      "to": 85,
+      "category": "Define"
+    },
+    {
+      "from": 85,
+      "to": 86,
+      "category": "Define"
+    },
+    {
+      "from": 85,
+      "to": 86,
+      "category": "UseVar"
+    },
+    {
+      "from": 85,
+      "to": 88,
+      "category": "UseVar"
+    },
+    {
+      "from": 28,
+      "to": 89,
+      "category": "Define"
+    },
+    {
+      "from": 89,
+      "to": 90,
+      "category": "Define"
+    },
+    {
+      "from": 89,
+      "to": 90,
+      "category": "UseVar"
+    },
+    {
+      "from": 28,
+      "to": 92,
+      "category": "Define"
+    },
+    {
+      "from": 92,
+      "to": 93,
+      "category": "Define"
+    },
+    {
+      "from": 92,
+      "to": 93,
+      "category": "UseVar"
+    },
+    {
+      "from": 28,
+      "to": 95,
+      "category": "Define"
+    },
+    {
+      "from": 95,
+      "to": 96,
+      "category": "Define"
+    },
+    {
+      "from": 95,
+      "to": 96,
+      "category": "UseVar"
+    },
+    {
+      "from": 28,
+      "to": 98,
+      "category": "Define"
+    },
+    {
+      "from": 98,
+      "to": 99,
+      "category": "Define"
+    },
+    {
+      "from": 98,
+      "to": 99,
+      "category": "UseVar"
+    },
+    {
+      "from": 98,
+      "to": 101,
+      "category": "UseVar"
+    },
+    {
+      "from": 28,
+      "to": 104,
+      "category": "Define"
+    },
+    {
+      "from": 104,
+      "to": 105,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 105,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 58,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 59,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 63,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 69,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 70,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 71,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 15,
+      "category": "Call"
+    },
+    {
+      "from": 0,
+      "to": 84,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 88,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 101,
+      "category": "Contain"
+    },
+    {
+      "from": 0,
+      "to": 104,
+      "category": "Call"
+    },
+    {
+      "from": 32,
+      "to": 106,
+      "category": "Define"
+    },
+    {
+      "from": 106,
+      "to": 35,
+      "category": "Call"
+    },
+    {
+      "from": 106,
+      "to": 36,
+      "category": "Call"
+    },
+    {
+      "from": 106,
+      "to": 37,
+      "category": "Call"
+    },
+    {
+      "from": 106,
+      "to": 38,
+      "category": "Call"
+    },
+    {
+      "from": 0,
+      "to": 35,
+      "category": "Call"
+    },
+    {
+      "from": 0,
+      "to": 36,
+      "category": "Call"
+    },
+    {
+      "from": 0,
+      "to": 37,
+      "category": "Call"
+    },
+    {
+      "from": 0,
+      "to": 38,
+      "category": "Call"
+    },
+    {
+      "from": 12,
+      "to": 108,
+      "category": "Define"
+    },
+    {
+      "from": 108,
+      "to": 110,
+      "category": "UseVar"
+    },
+    {
+      "from": 108,
+      "to": 110,
+      "category": "Modify"
+    },
+    {
+      "from": 0,
+      "to": 110,
+      "category": "Contain"
+    },
+    {
+      "from": 98,
+      "to": 101,
+      "category": "Define"
+    },
+    {
+      "from": 85,
+      "to": 88,
+      "category": "Define"
+    },
+    {
+      "from": 47,
+      "to": 50,
+      "category": "Define"
+    },
+    {
+      "from": 81,
+      "to": 84,
+      "category": "Define"
+    },
+    {
+      "from": 108,
+      "to": 110,
+      "category": "Define"
+    },
+    {
+      "from": 64,
+      "to": 69,
+      "category": "Define"
+    },
+    {
+      "from": 64,
+      "to": 70,
+      "category": "Define"
+    },
+    {
+      "from": 64,
+      "to": 71,
+      "category": "Define"
+    }
+  ],
+  "meta": null
+}

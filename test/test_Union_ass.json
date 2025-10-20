@@ -1,0 +1,647 @@
+{
+  "entities": [
+    {
+      "id": 0,
+      "name": "crate",
+      "qualifiedName": "crate",
+      "parent": null,
+      "category": "Crate",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "MyUnion",
+      "qualifiedName": "crate::MyUnion",
+      "parent": 0,
+      "category": "Union",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 2,
+            "column": 7
+          },
+          "end": {
+            "line": 2,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "i",
+      "qualifiedName": "crate::MyUnion::i",
+      "parent": 1,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 4,
+            "column": 5
+          },
+          "end": {
+            "line": 4,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "f",
+      "qualifiedName": "crate::MyUnion::f",
+      "parent": 1,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 5,
+            "column": 5
+          },
+          "end": {
+            "line": 5,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "c",
+      "qualifiedName": "crate::MyUnion::c",
+      "parent": 1,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 6,
+            "column": 5
+          },
+          "end": {
+            "line": 6,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "main",
+      "qualifiedName": "crate::main",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 9,
+            "column": 4
+          },
+          "end": {
+            "line": 9,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "u",
+      "qualifiedName": "crate::main::block_0::u",
+      "parent": 5,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 11,
+            "column": 9
+          },
+          "end": {
+            "line": 11,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "ComplexUnion",
+      "qualifiedName": "crate::ComplexUnion",
+      "parent": 0,
+      "category": "Union",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 19,
+            "column": 7
+          },
+          "end": {
+            "line": 19,
+            "column": 19
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "array",
+      "qualifiedName": "crate::ComplexUnion::array",
+      "parent": 9,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 21,
+            "column": 5
+          },
+          "end": {
+            "line": 21,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "tuple",
+      "qualifiedName": "crate::ComplexUnion::tuple",
+      "parent": 9,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 22,
+            "column": 5
+          },
+          "end": {
+            "line": 22,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "struct_val",
+      "qualifiedName": "crate::ComplexUnion::struct_val",
+      "parent": 9,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 23,
+            "column": 5
+          },
+          "end": {
+            "line": 23,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "test",
+      "qualifiedName": "crate::test",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 26,
+            "column": 4
+          },
+          "end": {
+            "line": 26,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "u",
+      "qualifiedName": "crate::test::block_2::u",
+      "parent": 13,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 28,
+            "column": 9
+          },
+          "end": {
+            "line": 28,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "Point",
+      "qualifiedName": "crate::Point",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 39,
+            "column": 8
+          },
+          "end": {
+            "line": 39,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "x",
+      "qualifiedName": "crate::Point::x",
+      "parent": 17,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 41,
+            "column": 5
+          },
+          "end": {
+            "line": 41,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "y",
+      "qualifiedName": "crate::Point::y",
+      "parent": 17,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 42,
+            "column": 5
+          },
+          "end": {
+            "line": 42,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "new",
+      "qualifiedName": "crate::Point::new",
+      "parent": 17,
+      "category": "AssociatedFunction",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 46,
+            "column": 8
+          },
+          "end": {
+            "line": 46,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "x",
+      "qualifiedName": "crate::Point::new::x",
+      "parent": 20,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 46,
+            "column": 12
+          },
+          "end": {
+            "line": 46,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "y",
+      "qualifiedName": "crate::Point::new::y",
+      "parent": 20,
+      "category": "Parameter",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 46,
+            "column": 20
+          },
+          "end": {
+            "line": 46,
+            "column": 21
+          }
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "origin",
+      "qualifiedName": "crate::Point::origin",
+      "parent": 17,
+      "category": "AssociatedFunction",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 51,
+            "column": 8
+          },
+          "end": {
+            "line": 51,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 24,
+      "name": "Circle",
+      "qualifiedName": "crate::Circle",
+      "parent": 0,
+      "category": "Struct",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 56,
+            "column": 8
+          },
+          "end": {
+            "line": 56,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 25,
+      "name": "radius",
+      "qualifiedName": "crate::Circle::radius",
+      "parent": 24,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 58,
+            "column": 5
+          },
+          "end": {
+            "line": 58,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 26,
+      "name": "PI",
+      "qualifiedName": "crate::Circle::PI",
+      "parent": 24,
+      "category": "AssociatedConst",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 61,
+            "column": 11
+          },
+          "end": {
+            "line": 61,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 27,
+      "name": "DEFAULT_RADIUS",
+      "qualifiedName": "crate::Circle::DEFAULT_RADIUS",
+      "parent": 24,
+      "category": "AssociatedConst",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 62,
+            "column": 11
+          },
+          "end": {
+            "line": 62,
+            "column": 25
+          }
+        }
+      }
+    },
+    {
+      "id": 28,
+      "name": "area",
+      "qualifiedName": "crate::Circle::area",
+      "parent": 24,
+      "category": "Method",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 64,
+            "column": 8
+          },
+          "end": {
+            "line": 64,
+            "column": 12
+          }
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from": 0,
+      "to": 1,
+      "category": "Define"
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "category": "Define"
+    },
+    {
+      "from": 1,
+      "to": 3,
+      "category": "Define"
+    },
+    {
+      "from": 1,
+      "to": 4,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 5,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 9,
+      "category": "Define"
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "category": "Define"
+    },
+    {
+      "from": 9,
+      "to": 11,
+      "category": "Define"
+    },
+    {
+      "from": 9,
+      "to": 12,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 13,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 17,
+      "category": "Define"
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "category": "Define"
+    },
+    {
+      "from": 17,
+      "to": 19,
+      "category": "Define"
+    },
+    {
+      "from": 17,
+      "to": 20,
+      "category": "Define"
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "category": "Define"
+    },
+    {
+      "from": 20,
+      "to": 22,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 21,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 22,
+      "category": "UseVar"
+    },
+    {
+      "from": 17,
+      "to": 23,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 24,
+      "category": "Define"
+    },
+    {
+      "from": 24,
+      "to": 25,
+      "category": "Define"
+    },
+    {
+      "from": 24,
+      "to": 26,
+      "category": "Define"
+    },
+    {
+      "from": 24,
+      "to": 27,
+      "category": "Define"
+    },
+    {
+      "from": 24,
+      "to": 28,
+      "category": "Define"
+    },
+    {
+      "from": 28,
+      "to": 26,
+      "category": "UseVar"
+    },
+    {
+      "from": 0,
+      "to": 26,
+      "category": "UseVar"
+    },
+    {
+      "from": 5,
+      "to": 7,
+      "category": "Define"
+    },
+    {
+      "from": 13,
+      "to": 15,
+      "category": "Define"
+    }
+  ],
+  "meta": null
+}

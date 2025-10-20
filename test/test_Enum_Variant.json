@@ -1,0 +1,1012 @@
+{
+  "entities": [
+    {
+      "id": 0,
+      "name": "crate",
+      "qualifiedName": "crate",
+      "parent": null,
+      "category": "Crate",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 1,
+            "column": 1
+          },
+          "end": {
+            "line": 1,
+            "column": 6
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Book",
+      "qualifiedName": "crate::Book",
+      "parent": 0,
+      "category": "Enum",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 2,
+            "column": 6
+          },
+          "end": {
+            "line": 2,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Papery",
+      "qualifiedName": "crate::Book::Papery",
+      "parent": 1,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 3,
+            "column": 5
+          },
+          "end": {
+            "line": 3,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Electronic",
+      "qualifiedName": "crate::Book::Electronic",
+      "parent": 1,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 4,
+            "column": 5
+          },
+          "end": {
+            "line": 4,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Book2",
+      "qualifiedName": "crate::Book2",
+      "parent": 0,
+      "category": "Enum",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 7,
+            "column": 6
+          },
+          "end": {
+            "line": 7,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Papery2",
+      "qualifiedName": "crate::Book2::Papery2",
+      "parent": 4,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 8,
+            "column": 5
+          },
+          "end": {
+            "line": 8,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "_0",
+      "qualifiedName": "crate::Book2::Papery2::_0",
+      "parent": 5,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 8,
+            "column": 5
+          },
+          "end": {
+            "line": 8,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Electronic2",
+      "qualifiedName": "crate::Book2::Electronic2",
+      "parent": 4,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 9,
+            "column": 5
+          },
+          "end": {
+            "line": 9,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "_0",
+      "qualifiedName": "crate::Book2::Electronic2::_0",
+      "parent": 7,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 9,
+            "column": 5
+          },
+          "end": {
+            "line": 9,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Book3",
+      "qualifiedName": "crate::Book3",
+      "parent": 0,
+      "category": "Enum",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 12,
+            "column": 6
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Papery3",
+      "qualifiedName": "crate::Book3::Papery3",
+      "parent": 9,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 13,
+            "column": 5
+          },
+          "end": {
+            "line": 13,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "index",
+      "qualifiedName": "crate::Book3::Papery3::index",
+      "parent": 10,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 13,
+            "column": 15
+          },
+          "end": {
+            "line": 13,
+            "column": 20
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "Electronic3",
+      "qualifiedName": "crate::Book3::Electronic3",
+      "parent": 9,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 14,
+            "column": 5
+          },
+          "end": {
+            "line": 14,
+            "column": 16
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "url",
+      "qualifiedName": "crate::Book3::Electronic3::url",
+      "parent": 12,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 14,
+            "column": 19
+          },
+          "end": {
+            "line": 14,
+            "column": 22
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Option",
+      "qualifiedName": "crate::Option",
+      "parent": 0,
+      "category": "Enum",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 17,
+            "column": 6
+          },
+          "end": {
+            "line": 17,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "Some",
+      "qualifiedName": "crate::Option::Some",
+      "parent": 14,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 18,
+            "column": 5
+          },
+          "end": {
+            "line": 18,
+            "column": 9
+          }
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "_0",
+      "qualifiedName": "crate::Option::Some::_0",
+      "parent": 15,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 18,
+            "column": 5
+          },
+          "end": {
+            "line": 18,
+            "column": 9
+          }
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "None",
+      "qualifiedName": "crate::Option::None",
+      "parent": 14,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 19,
+            "column": 5
+          },
+          "end": {
+            "line": 19,
+            "column": 9
+          }
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "main",
+      "qualifiedName": "crate::main",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 21,
+            "column": 4
+          },
+          "end": {
+            "line": 21,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "opt",
+      "qualifiedName": "crate::main::block_0::opt",
+      "parent": 18,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 22,
+            "column": 9
+          },
+          "end": {
+            "line": 22,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "WebEvent",
+      "qualifiedName": "crate::WebEvent",
+      "parent": 0,
+      "category": "Enum",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 25,
+            "column": 6
+          },
+          "end": {
+            "line": 25,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "PageLoad",
+      "qualifiedName": "crate::WebEvent::PageLoad",
+      "parent": 21,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 27,
+            "column": 5
+          },
+          "end": {
+            "line": 27,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "PageUnload",
+      "qualifiedName": "crate::WebEvent::PageUnload",
+      "parent": 21,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 28,
+            "column": 5
+          },
+          "end": {
+            "line": 28,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 24,
+      "name": "KeyPress",
+      "qualifiedName": "crate::WebEvent::KeyPress",
+      "parent": 21,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 30,
+            "column": 5
+          },
+          "end": {
+            "line": 30,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 25,
+      "name": "_0",
+      "qualifiedName": "crate::WebEvent::KeyPress::_0",
+      "parent": 24,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 30,
+            "column": 5
+          },
+          "end": {
+            "line": 30,
+            "column": 13
+          }
+        }
+      }
+    },
+    {
+      "id": 26,
+      "name": "Paste",
+      "qualifiedName": "crate::WebEvent::Paste",
+      "parent": 21,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 31,
+            "column": 5
+          },
+          "end": {
+            "line": 31,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 27,
+      "name": "_0",
+      "qualifiedName": "crate::WebEvent::Paste::_0",
+      "parent": 26,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 31,
+            "column": 5
+          },
+          "end": {
+            "line": 31,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 28,
+      "name": "Click",
+      "qualifiedName": "crate::WebEvent::Click",
+      "parent": 21,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 33,
+            "column": 5
+          },
+          "end": {
+            "line": 33,
+            "column": 10
+          }
+        }
+      }
+    },
+    {
+      "id": 29,
+      "name": "x",
+      "qualifiedName": "crate::WebEvent::Click::x",
+      "parent": 28,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 33,
+            "column": 13
+          },
+          "end": {
+            "line": 33,
+            "column": 14
+          }
+        }
+      }
+    },
+    {
+      "id": 30,
+      "name": "y",
+      "qualifiedName": "crate::WebEvent::Click::y",
+      "parent": 28,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 33,
+            "column": 21
+          },
+          "end": {
+            "line": 33,
+            "column": 22
+          }
+        }
+      }
+    },
+    {
+      "id": 31,
+      "name": "net",
+      "qualifiedName": "crate::net",
+      "parent": 0,
+      "category": "Module",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 36,
+            "column": 5
+          },
+          "end": {
+            "line": 36,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 32,
+      "name": "ConnectionState",
+      "qualifiedName": "crate::net::ConnectionState",
+      "parent": 31,
+      "category": "Enum",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 37,
+            "column": 10
+          },
+          "end": {
+            "line": 37,
+            "column": 25
+          }
+        }
+      }
+    },
+    {
+      "id": 33,
+      "name": "Connecting",
+      "qualifiedName": "crate::net::ConnectionState::Connecting",
+      "parent": 32,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 38,
+            "column": 9
+          },
+          "end": {
+            "line": 38,
+            "column": 19
+          }
+        }
+      }
+    },
+    {
+      "id": 34,
+      "name": "Connected",
+      "qualifiedName": "crate::net::ConnectionState::Connected",
+      "parent": 32,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 39,
+            "column": 9
+          },
+          "end": {
+            "line": 39,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 35,
+      "name": "Closed",
+      "qualifiedName": "crate::net::ConnectionState::Closed",
+      "parent": 32,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 40,
+            "column": 9
+          },
+          "end": {
+            "line": 40,
+            "column": 15
+          }
+        }
+      }
+    },
+    {
+      "id": 36,
+      "name": "work",
+      "qualifiedName": "crate::work",
+      "parent": 0,
+      "category": "Function",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 44,
+            "column": 4
+          },
+          "end": {
+            "line": 44,
+            "column": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 38,
+      "name": "LocalCmd",
+      "qualifiedName": "crate::work::block_1::LocalCmd",
+      "parent": 36,
+      "category": "Enum",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 45,
+            "column": 10
+          },
+          "end": {
+            "line": 45,
+            "column": 18
+          }
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": "Inc",
+      "qualifiedName": "crate::work::block_1::LocalCmd::Inc",
+      "parent": 38,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 46,
+            "column": 9
+          },
+          "end": {
+            "line": 46,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 40,
+      "name": "Dec",
+      "qualifiedName": "crate::work::block_1::LocalCmd::Dec",
+      "parent": 38,
+      "category": "Variant",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 47,
+            "column": 9
+          },
+          "end": {
+            "line": 47,
+            "column": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 41,
+      "name": "a",
+      "qualifiedName": "crate::work::block_1::a",
+      "parent": 36,
+      "category": "Variable",
+      "location": {
+        "file": 0,
+        "identifier": {
+          "start": {
+            "line": 49,
+            "column": 9
+          },
+          "end": {
+            "line": 49,
+            "column": 10
+          }
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from": 0,
+      "to": 1,
+      "category": "Define"
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "category": "Define"
+    },
+    {
+      "from": 1,
+      "to": 3,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 4,
+      "category": "Define"
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "category": "Define"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "category": "Define"
+    },
+    {
+      "from": 4,
+      "to": 7,
+      "category": "Define"
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 9,
+      "category": "Define"
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "category": "Define"
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "category": "Define"
+    },
+    {
+      "from": 9,
+      "to": 12,
+      "category": "Define"
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 14,
+      "category": "Define"
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "category": "Define"
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "category": "Define"
+    },
+    {
+      "from": 14,
+      "to": 17,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 18,
+      "category": "Define"
+    },
+    {
+      "from": 18,
+      "to": 15,
+      "category": "Call"
+    },
+    {
+      "from": 0,
+      "to": 21,
+      "category": "Define"
+    },
+    {
+      "from": 21,
+      "to": 22,
+      "category": "Define"
+    },
+    {
+      "from": 21,
+      "to": 23,
+      "category": "Define"
+    },
+    {
+      "from": 21,
+      "to": 24,
+      "category": "Define"
+    },
+    {
+      "from": 24,
+      "to": 25,
+      "category": "Define"
+    },
+    {
+      "from": 21,
+      "to": 26,
+      "category": "Define"
+    },
+    {
+      "from": 26,
+      "to": 27,
+      "category": "Define"
+    },
+    {
+      "from": 21,
+      "to": 28,
+      "category": "Define"
+    },
+    {
+      "from": 28,
+      "to": 29,
+      "category": "Define"
+    },
+    {
+      "from": 28,
+      "to": 30,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 31,
+      "category": "Define"
+    },
+    {
+      "from": 31,
+      "to": 32,
+      "category": "Define"
+    },
+    {
+      "from": 32,
+      "to": 33,
+      "category": "Define"
+    },
+    {
+      "from": 32,
+      "to": 34,
+      "category": "Define"
+    },
+    {
+      "from": 32,
+      "to": 35,
+      "category": "Define"
+    },
+    {
+      "from": 0,
+      "to": 36,
+      "category": "Define"
+    },
+    {
+      "from": 38,
+      "to": 39,
+      "category": "Define"
+    },
+    {
+      "from": 38,
+      "to": 40,
+      "category": "Define"
+    },
+    {
+      "from": 36,
+      "to": 39,
+      "category": "Call"
+    },
+    {
+      "from": 18,
+      "to": 20,
+      "category": "Define"
+    },
+    {
+      "from": 36,
+      "to": 38,
+      "category": "Define"
+    },
+    {
+      "from": 36,
+      "to": 41,
+      "category": "Define"
+    }
+  ],
+  "meta": null
+}
